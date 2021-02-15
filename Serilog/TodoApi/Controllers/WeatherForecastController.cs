@@ -34,7 +34,24 @@ namespace TodoApi.Controllers
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
-            _logger.LogError("Hello, World!");
+            _logger.LogWarning("Warning: Hello, World!");
+            _logger.LogInformation("TimeSpan:{ts}",TimeSpan.FromDays(1));
+
+            int a = 10, b = 0;
+            try
+            {
+                _logger.LogDebug("Dividing {@A} by {@B}", a, b);
+                Console.WriteLine(a / b);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("Something went wrong: Exception={@ex}", ex);
+            }
+            finally
+            {
+                //_logger.CloseAndFlush();
+            }
+
             return(rtn);
         }
     }
