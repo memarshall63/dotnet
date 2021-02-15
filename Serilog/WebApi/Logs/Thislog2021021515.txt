@@ -1,0 +1,33 @@
+2021-02-15 15:44:52.976 -05:00 [INF] Now listening on: https://localhost:5001
+2021-02-15 15:44:53.010 -05:00 [INF] Now listening on: http://localhost:5000
+2021-02-15 15:44:53.010 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-15 15:44:53.010 -05:00 [INF] Hosting environment: Development
+2021-02-15 15:44:53.011 -05:00 [INF] Content root path: C:\git\dotnet\Serilog\WebApi
+2021-02-15 15:45:38.924 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/WeatherForecast - -
+2021-02-15 15:45:38.976 -05:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-02-15 15:45:38.995 -05:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApi.WeatherForecast] Get() on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-02-15 15:45:38.999 -05:00 [INF] called weather forecast
+2021-02-15 15:45:39.005 -05:00 [INF] Executing ObjectResult, writing value of type 'WebApi.WeatherForecast[]'.
+2021-02-15 15:45:39.044 -05:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 41.7895ms
+2021-02-15 15:45:39.045 -05:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-02-15 15:45:39.048 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/WeatherForecast - - - 200 - application/json;+charset=utf-8 126.9317ms
+2021-02-15 15:45:40.987 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/WeatherForecast - -
+2021-02-15 15:45:40.988 -05:00 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-02-15 15:45:40.988 -05:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApi.WeatherForecast] Get() on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2021-02-15 15:45:40.988 -05:00 [INF] called weather forecast
+2021-02-15 15:45:40.989 -05:00 [INF] Executing ObjectResult, writing value of type 'WebApi.WeatherForecast[]'.
+2021-02-15 15:45:40.989 -05:00 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 0.9579ms
+2021-02-15 15:45:40.989 -05:00 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2021-02-15 15:45:40.990 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/WeatherForecast - - - 200 - application/json;+charset=utf-8 2.8332ms
+2021-02-15 15:48:04.880 -05:00 [INF] Application is shutting down...
+2021-02-15 15:48:09.727 -05:00 [INF] Now listening on: https://localhost:5001
+2021-02-15 15:48:09.759 -05:00 [INF] Now listening on: http://localhost:5000
+2021-02-15 15:48:09.760 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-15 15:48:09.760 -05:00 [INF] Hosting environment: Development
+2021-02-15 15:48:09.760 -05:00 [INF] Content root path: C:\git\dotnet\Serilog\WebApi
+2021-02-15 15:52:43.373 -05:00 [INF] Application is shutting down...
+2021-02-15 15:53:56.856 -05:00 [INF] Now listening on: https://localhost:5001
+2021-02-15 15:53:56.891 -05:00 [INF] Now listening on: http://localhost:5000
+2021-02-15 15:53:56.891 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-15 15:53:56.891 -05:00 [INF] Hosting environment: Development
+2021-02-15 15:53:56.892 -05:00 [INF] Content root path: C:\git\dotnet\Serilog\WebApi

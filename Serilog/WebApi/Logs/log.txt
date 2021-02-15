@@ -1,0 +1,80 @@
+2021-02-15 15:28:19.781 -05:00 [INF] Hello, world!
+2021-02-15 15:34:36.802 -05:00 [INF] Hello, world!
+2021-02-15 15:40:46.397 -05:00 [INF] Hello, world!
+2021-02-15 15:43:15.509 -05:00 [INF] Hello, world!
+2021-02-15 15:44:52.657 -05:00 [INF] Hello, world!
+2021-02-15 15:48:09.413 -05:00 [INF] Hello, world!
+2021-02-15 15:53:56.517 -05:00 [INF] Hello, world!
+2021-02-15 16:08:03.525 -05:00 [INF] Args: []
+2021-02-15 16:08:03.556 -05:00 [INF] Hello, world!
+2021-02-15 16:08:03.557 -05:00 [ERR] Hello, world!
+2021-02-15 16:08:03.558 -05:00 [WRN] Hello, world!
+2021-02-15 16:08:03.559 -05:00 [ERR] Hello, world!
+2021-02-15 16:08:03.567 -05:00 [INF] Destructure with max object nesting depth:
+{"FiveDeep":{"Two":{"Three":{"Four":{"Five":"the end"}}}}}
+2021-02-15 16:08:03.577 -05:00 [INF] Destructure with max string length:
+{"TwentyChars":"0123456789abcdefghij"}
+2021-02-15 16:08:03.579 -05:00 [INF] Destructure with max collection count:
+{"TenItems":["one","two","three","four","five","six","seven","eight","nine","ten"]}
+2021-02-15 16:08:03.582 -05:00 [INF] Destructure with policy to strip password:
+{"$type":"LoginData"}
+2021-02-15 16:13:56.308 -05:00 [INF] Hello, world!
+2021-02-15 16:13:56.309 -05:00 [ERR] Hello, world!
+2021-02-15 16:13:56.310 -05:00 [WRN] Hello, world!
+2021-02-15 16:13:56.311 -05:00 [ERR] Hello, world!
+2021-02-15 16:13:56.312 -05:00 [INF] Destructure with max object nesting depth:
+{"FiveDeep":{"Two":{"Three":{"Four":{"Five":"the end"}}}}}
+2021-02-15 16:13:56.320 -05:00 [INF] Destructure with max string length:
+{"TwentyChars":"0123456789abcdefghij"}
+2021-02-15 16:13:56.322 -05:00 [INF] Destructure with max collection count:
+{"TenItems":["one","two","three","four","five","six","seven","eight","nine","ten"]}
+2021-02-15 16:13:56.328 -05:00 [INF] Destructure with policy to strip password:
+{"$type":"LoginData"}
+2021-02-15 16:14:01.860 -05:00 [INF] Hello, world!
+2021-02-15 16:14:01.862 -05:00 [ERR] Hello, world!
+2021-02-15 16:14:01.863 -05:00 [WRN] Hello, world!
+2021-02-15 16:14:01.863 -05:00 [ERR] Hello, world!
+2021-02-15 16:14:01.864 -05:00 [INF] Destructure with max object nesting depth:
+{"FiveDeep":{"Two":{"Three":{"Four":{"Five":"the end"}}}}}
+2021-02-15 16:14:01.869 -05:00 [INF] Destructure with max string length:
+{"TwentyChars":"0123456789abcdefghij"}
+2021-02-15 16:14:01.870 -05:00 [INF] Destructure with max collection count:
+{"TenItems":["one","two","three","four","five","six","seven","eight","nine","ten"]}
+2021-02-15 16:14:01.875 -05:00 [INF] Destructure with policy to strip password:
+{"$type":"LoginData"}
+2021-02-15 16:14:02.701 -05:00 [INF] Hello, world!
+2021-02-15 16:14:02.702 -05:00 [ERR] Hello, world!
+2021-02-15 16:14:02.703 -05:00 [WRN] Hello, world!
+2021-02-15 16:14:02.704 -05:00 [ERR] Hello, world!
+2021-02-15 16:14:02.705 -05:00 [INF] Destructure with max object nesting depth:
+{"FiveDeep":{"Two":{"Three":{"Four":{"Five":"the end"}}}}}
+2021-02-15 16:14:02.709 -05:00 [INF] Destructure with max string length:
+{"TwentyChars":"0123456789abcdefghij"}
+2021-02-15 16:14:02.711 -05:00 [INF] Destructure with max collection count:
+{"TenItems":["one","two","three","four","five","six","seven","eight","nine","ten"]}
+2021-02-15 16:14:02.716 -05:00 [INF] Destructure with policy to strip password:
+{"$type":"LoginData"}
+2021-02-15 16:14:03.345 -05:00 [INF] Hello, world!
+2021-02-15 16:14:03.346 -05:00 [ERR] Hello, world!
+2021-02-15 16:14:03.347 -05:00 [WRN] Hello, world!
+2021-02-15 16:14:03.348 -05:00 [ERR] Hello, world!
+2021-02-15 16:14:03.349 -05:00 [INF] Destructure with max object nesting depth:
+{"FiveDeep":{"Two":{"Three":{"Four":{"Five":"the end"}}}}}
+2021-02-15 16:14:03.353 -05:00 [INF] Destructure with max string length:
+{"TwentyChars":"0123456789abcdefghij"}
+2021-02-15 16:14:03.355 -05:00 [INF] Destructure with max collection count:
+{"TenItems":["one","two","three","four","five","six","seven","eight","nine","ten"]}
+2021-02-15 16:14:03.362 -05:00 [INF] Destructure with policy to strip password:
+{"$type":"LoginData"}
+2021-02-15 16:14:09.001 -05:00 [INF] Hello, world!
+2021-02-15 16:14:09.003 -05:00 [ERR] Hello, world!
+2021-02-15 16:14:09.004 -05:00 [WRN] Hello, world!
+2021-02-15 16:14:09.005 -05:00 [ERR] Hello, world!
+2021-02-15 16:14:09.006 -05:00 [INF] Destructure with max object nesting depth:
+{"FiveDeep":{"Two":{"Three":{"Four":{"Five":"the end"}}}}}
+2021-02-15 16:14:09.010 -05:00 [INF] Destructure with max string length:
+{"TwentyChars":"0123456789abcdefghij"}
+2021-02-15 16:14:09.012 -05:00 [INF] Destructure with max collection count:
+{"TenItems":["one","two","three","four","five","six","seven","eight","nine","ten"]}
+2021-02-15 16:14:09.018 -05:00 [INF] Destructure with policy to strip password:
+{"$type":"LoginData"}
