@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Diagnostics;
+using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Serilog;
 
 namespace TodoApi.Controllers
 {
@@ -17,10 +20,12 @@ namespace TodoApi.Controllers
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
-        
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        private readonly IDiagnosticContext _diagnosticContext;
+        static int _callCount;
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, IDiagnosticContext diagnosticContext)
         {
             _logger = logger;
+            _diagnosticContext = diagnosticContext;
         }
 
         [HttpGet]
@@ -33,8 +38,9 @@ namespace TodoApi.Controllers
                 TemperatureC = rng.Next(-20, 55),
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
-            .ToArray();
+            .ToArray();    
             _logger.LogWarning("Warning: Hello, World!");
+            _diagnosticContext.Set("IndexCallCount", Interlocked.Increment(ref _callCount));
             _logger.LogInformation("TimeSpan:{ts}",TimeSpan.FromDays(1));
 
             int a = 10, b = 0;

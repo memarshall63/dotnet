@@ -15,6 +15,8 @@ namespace TodoApi
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
+            Serilog.Debugging.SelfLog.Enable(msg => Console.WriteLine(msg));
+            Serilog.Debugging.SelfLog.Enable(Console.Error);    
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
@@ -27,7 +29,8 @@ namespace TodoApi
                                 .ReadFrom.Configuration(hostingContext.Configuration)
                                 .Enrich.FromLogContext()
                                 .Enrich.WithProperty("ApplicationName", typeof(Program).Assembly.GetName().Name)
-                                .Enrich.WithProperty("Environment", hostingContext.HostingEnvironment);
+                                .Enrich.WithProperty("Environment", hostingContext.HostingEnvironment)
+                                .Enrich.AtLevel(Serilog.Events.LogEventLevel.Error, e => e.WithProperty("Version", typeof(Program).Assembly.ImageRuntimeVersion));
                         });
                     }
                 );

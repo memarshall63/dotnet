@@ -264,3 +264,93 @@
 2021-02-15 13:01:20.826 -05:00 [INFOR] Executed endpoint 'TodoApi.Controllers.WeatherForecastController.Get (TodoApi)'
 2021-02-15 13:01:20.828 -05:00 [INFOR] Request finished HTTP/2 GET https://localhost:5001/WeatherForecast - - - 200 - application/json;+charset=utf-8 154.4469ms
 2021-02-15 14:55:03.731 -05:00 [INFOR] Application is shutting down...
+2021-02-15 16:37:31.374 -05:00 [INFOR] Now listening on: https://localhost:5001
+2021-02-15 16:37:31.421 -05:00 [INFOR] Now listening on: http://localhost:5000
+2021-02-15 16:37:31.422 -05:00 [INFOR] Application started. Press Ctrl+C to shut down.
+2021-02-15 16:37:31.422 -05:00 [INFOR] Hosting environment: Development
+2021-02-15 16:37:31.422 -05:00 [INFOR] Content root path: C:\git\dotnet\Serilog\TodoApi
+2021-02-15 16:37:44.635 -05:00 [INFOR] Request starting HTTP/2 GET https://localhost:5001/WeatherForecast - -
+2021-02-15 16:37:44.686 -05:00 [INFOR] Executing endpoint 'TodoApi.Controllers.WeatherForecastController.Get (TodoApi)'
+2021-02-15 16:37:44.702 -05:00 [INFOR] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[TodoApi.WeatherForecast] Get() on controller TodoApi.Controllers.WeatherForecastController (TodoApi).
+2021-02-15 16:37:44.705 -05:00 [WARNI] Warning: Hello, World!
+2021-02-15 16:37:44.709 -05:00 [INFOR] TimeSpan:"1.00:00:00"
+2021-02-15 16:37:44.710 -05:00 [DEBUG] Dividing 10 by 0
+2021-02-15 16:37:44.742 -05:00 [ERROR] Something went wrong: Exception={"TargetSite":"System.Collections.Generic.IEnumerable`1[TodoApi.WeatherForecast] Get()","StackTrace":"   at TodoApi.Controllers.WeatherForecastController.Get() in C:\\git\\dotnet\\Serilog\\TodoApi\\Controllers\\WeatherForecastController.cs:line 44","Message":"Attempted to divide by zero.","Data":[],"InnerException":null,"HelpLink":null,"Source":"TodoApi","HResult":-2147352558,"$type":"DivideByZeroException"}
+2021-02-15 16:37:44.747 -05:00 [INFOR] Response:{"Date":"2021-02-16T16:37:44.7050064-05:00","TemperatureC":1,"TemperatureF":33,"Summary":"Freezing","$type":"WeatherForecast"}
+2021-02-15 16:37:44.754 -05:00 [INFOR] Executing ObjectResult, writing value of type 'TodoApi.WeatherForecast[]'.
+2021-02-15 16:37:44.794 -05:00 [INFOR] Executed action TodoApi.Controllers.WeatherForecastController.Get (TodoApi) in 86.5834ms
+2021-02-15 16:37:44.795 -05:00 [INFOR] Executed endpoint 'TodoApi.Controllers.WeatherForecastController.Get (TodoApi)'
+2021-02-15 16:37:44.798 -05:00 [INFOR] Request finished HTTP/2 GET https://localhost:5001/WeatherForecast - - - 200 - application/json;+charset=utf-8 166.1167ms
+2021-02-15 17:01:40.299 -05:00 [INFOR] Application is shutting down...
+2021-02-15 17:01:48.087 -05:00 [INFOR] Now listening on: https://localhost:5001
+2021-02-15 17:01:48.138 -05:00 [INFOR] Now listening on: http://localhost:5000
+2021-02-15 17:01:48.144 -05:00 [INFOR] Application started. Press Ctrl+C to shut down.
+2021-02-15 17:01:48.145 -05:00 [INFOR] Hosting environment: Development
+2021-02-15 17:01:48.145 -05:00 [INFOR] Content root path: C:\git\dotnet\Serilog\TodoApi
+2021-02-15 17:01:56.315 -05:00 [INFOR] Request starting HTTP/2 GET https://localhost:5001/WeatherForecast - -
+2021-02-15 17:01:56.371 -05:00 [INFOR] Executing endpoint 'TodoApi.Controllers.WeatherForecastController.Get (TodoApi)'
+2021-02-15 17:01:56.391 -05:00 [INFOR] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[TodoApi.WeatherForecast] Get() on controller TodoApi.Controllers.WeatherForecastController (TodoApi).
+2021-02-15 17:01:56.395 -05:00 [WARNI] Warning: Hello, World!
+2021-02-15 17:01:56.399 -05:00 [INFOR] TimeSpan:"1.00:00:00"
+2021-02-15 17:01:56.399 -05:00 [DEBUG] Dividing 10 by 0
+2021-02-15 17:01:56.432 -05:00 [ERROR] Something went wrong: Exception={"TargetSite":"System.Collections.Generic.IEnumerable`1[TodoApi.WeatherForecast] Get()","StackTrace":"   at TodoApi.Controllers.WeatherForecastController.Get() in C:\\git\\dotnet\\Serilog\\TodoApi\\Controllers\\WeatherForecastController.cs:line 50","Message":"Attempted to divide by zero.","Data":[],"InnerException":null,"HelpLink":null,"Source":"TodoApi","HResult":-2147352558,"$type":"DivideByZeroException"}
+2021-02-15 17:01:56.439 -05:00 [INFOR] Response:{"Date":"2021-02-16T17:01:56.3945196-05:00","TemperatureC":-3,"TemperatureF":27,"Summary":"Hot","$type":"WeatherForecast"}
+2021-02-15 17:01:56.446 -05:00 [INFOR] Executing ObjectResult, writing value of type 'TodoApi.WeatherForecast[]'.
+2021-02-15 17:01:56.485 -05:00 [INFOR] Executed action TodoApi.Controllers.WeatherForecastController.Get (TodoApi) in 88.7259ms
+2021-02-15 17:01:56.486 -05:00 [INFOR] Executed endpoint 'TodoApi.Controllers.WeatherForecastController.Get (TodoApi)'
+2021-02-15 17:01:56.494 -05:00 [INFOR] Request finished HTTP/2 GET https://localhost:5001/WeatherForecast - - - 200 - application/json;+charset=utf-8 182.3501ms
+2021-02-15 17:02:10.398 -05:00 [INFOR] Request starting HTTP/2 GET https://localhost:5001/WeatherForecast - -
+2021-02-15 17:02:10.398 -05:00 [INFOR] Executing endpoint 'TodoApi.Controllers.WeatherForecastController.Get (TodoApi)'
+2021-02-15 17:02:10.399 -05:00 [INFOR] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[TodoApi.WeatherForecast] Get() on controller TodoApi.Controllers.WeatherForecastController (TodoApi).
+2021-02-15 17:02:10.399 -05:00 [WARNI] Warning: Hello, World!
+2021-02-15 17:02:10.400 -05:00 [INFOR] TimeSpan:"1.00:00:00"
+2021-02-15 17:02:10.400 -05:00 [DEBUG] Dividing 10 by 0
+2021-02-15 17:02:10.401 -05:00 [ERROR] Something went wrong: Exception={"TargetSite":"System.Collections.Generic.IEnumerable`1[TodoApi.WeatherForecast] Get()","StackTrace":"   at TodoApi.Controllers.WeatherForecastController.Get() in C:\\git\\dotnet\\Serilog\\TodoApi\\Controllers\\WeatherForecastController.cs:line 50","Message":"Attempted to divide by zero.","Data":[],"InnerException":null,"HelpLink":null,"Source":"TodoApi","HResult":-2147352558,"$type":"DivideByZeroException"}
+2021-02-15 17:02:10.406 -05:00 [INFOR] Response:{"Date":"2021-02-16T17:02:10.3997729-05:00","TemperatureC":53,"TemperatureF":127,"Summary":"Balmy","$type":"WeatherForecast"}
+2021-02-15 17:02:10.406 -05:00 [INFOR] Executing ObjectResult, writing value of type 'TodoApi.WeatherForecast[]'.
+2021-02-15 17:02:10.407 -05:00 [INFOR] Executed action TodoApi.Controllers.WeatherForecastController.Get (TodoApi) in 7.8205ms
+2021-02-15 17:02:10.408 -05:00 [INFOR] Executed endpoint 'TodoApi.Controllers.WeatherForecastController.Get (TodoApi)'
+2021-02-15 17:02:10.408 -05:00 [INFOR] Request finished HTTP/2 GET https://localhost:5001/WeatherForecast - - - 200 - application/json;+charset=utf-8 10.4463ms
+2021-02-15 17:02:12.275 -05:00 [INFOR] Request starting HTTP/2 GET https://localhost:5001/WeatherForecast - -
+2021-02-15 17:02:12.276 -05:00 [INFOR] Executing endpoint 'TodoApi.Controllers.WeatherForecastController.Get (TodoApi)'
+2021-02-15 17:02:12.277 -05:00 [INFOR] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[TodoApi.WeatherForecast] Get() on controller TodoApi.Controllers.WeatherForecastController (TodoApi).
+2021-02-15 17:02:12.279 -05:00 [WARNI] Warning: Hello, World!
+2021-02-15 17:02:12.279 -05:00 [INFOR] TimeSpan:"1.00:00:00"
+2021-02-15 17:02:12.279 -05:00 [DEBUG] Dividing 10 by 0
+2021-02-15 17:02:12.280 -05:00 [ERROR] Something went wrong: Exception={"TargetSite":"System.Collections.Generic.IEnumerable`1[TodoApi.WeatherForecast] Get()","StackTrace":"   at TodoApi.Controllers.WeatherForecastController.Get() in C:\\git\\dotnet\\Serilog\\TodoApi\\Controllers\\WeatherForecastController.cs:line 50","Message":"Attempted to divide by zero.","Data":[],"InnerException":null,"HelpLink":null,"Source":"TodoApi","HResult":-2147352558,"$type":"DivideByZeroException"}
+2021-02-15 17:02:12.280 -05:00 [INFOR] Response:{"Date":"2021-02-16T17:02:12.2792235-05:00","TemperatureC":45,"TemperatureF":112,"Summary":"Hot","$type":"WeatherForecast"}
+2021-02-15 17:02:12.280 -05:00 [INFOR] Executing ObjectResult, writing value of type 'TodoApi.WeatherForecast[]'.
+2021-02-15 17:02:12.280 -05:00 [INFOR] Executed action TodoApi.Controllers.WeatherForecastController.Get (TodoApi) in 1.7617ms
+2021-02-15 17:02:12.281 -05:00 [INFOR] Executed endpoint 'TodoApi.Controllers.WeatherForecastController.Get (TodoApi)'
+2021-02-15 17:02:12.281 -05:00 [INFOR] Request finished HTTP/2 GET https://localhost:5001/WeatherForecast - - - 200 - application/json;+charset=utf-8 5.5763ms
+2021-02-15 17:02:13.863 -05:00 [INFOR] Request starting HTTP/2 GET https://localhost:5001/WeatherForecast - -
+2021-02-15 17:02:13.864 -05:00 [INFOR] Executing endpoint 'TodoApi.Controllers.WeatherForecastController.Get (TodoApi)'
+2021-02-15 17:02:13.864 -05:00 [INFOR] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[TodoApi.WeatherForecast] Get() on controller TodoApi.Controllers.WeatherForecastController (TodoApi).
+2021-02-15 17:02:13.864 -05:00 [WARNI] Warning: Hello, World!
+2021-02-15 17:02:13.865 -05:00 [INFOR] TimeSpan:"1.00:00:00"
+2021-02-15 17:02:13.865 -05:00 [DEBUG] Dividing 10 by 0
+2021-02-15 17:02:13.865 -05:00 [ERROR] Something went wrong: Exception={"TargetSite":"System.Collections.Generic.IEnumerable`1[TodoApi.WeatherForecast] Get()","StackTrace":"   at TodoApi.Controllers.WeatherForecastController.Get() in C:\\git\\dotnet\\Serilog\\TodoApi\\Controllers\\WeatherForecastController.cs:line 50","Message":"Attempted to divide by zero.","Data":[],"InnerException":null,"HelpLink":null,"Source":"TodoApi","HResult":-2147352558,"$type":"DivideByZeroException"}
+2021-02-15 17:02:13.866 -05:00 [INFOR] Response:{"Date":"2021-02-16T17:02:13.8646904-05:00","TemperatureC":-11,"TemperatureF":13,"Summary":"Freezing","$type":"WeatherForecast"}
+2021-02-15 17:02:13.866 -05:00 [INFOR] Executing ObjectResult, writing value of type 'TodoApi.WeatherForecast[]'.
+2021-02-15 17:02:13.867 -05:00 [INFOR] Executed action TodoApi.Controllers.WeatherForecastController.Get (TodoApi) in 2.5748ms
+2021-02-15 17:02:13.867 -05:00 [INFOR] Executed endpoint 'TodoApi.Controllers.WeatherForecastController.Get (TodoApi)'
+2021-02-15 17:02:13.869 -05:00 [INFOR] Request finished HTTP/2 GET https://localhost:5001/WeatherForecast - - - 200 - application/json;+charset=utf-8 5.4354ms
+2021-02-15 17:03:36.640 -05:00 [INFOR] Application is shutting down...
+2021-02-15 17:15:24.232 -05:00 [INFOR] Now listening on: https://localhost:5001
+2021-02-15 17:15:24.280 -05:00 [INFOR] Now listening on: http://localhost:5000
+2021-02-15 17:15:24.280 -05:00 [INFOR] Application started. Press Ctrl+C to shut down.
+2021-02-15 17:15:24.280 -05:00 [INFOR] Hosting environment: Development
+2021-02-15 17:15:24.280 -05:00 [INFOR] Content root path: C:\git\dotnet\Serilog\TodoApi
+2021-02-15 17:15:35.126 -05:00 [INFOR] Request starting HTTP/2 GET https://localhost:5001/WeatherForecast - -
+2021-02-15 17:15:35.179 -05:00 [INFOR] Executing endpoint 'TodoApi.Controllers.WeatherForecastController.Get (TodoApi)'
+2021-02-15 17:15:35.201 -05:00 [INFOR] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[TodoApi.WeatherForecast] Get() on controller TodoApi.Controllers.WeatherForecastController (TodoApi).
+2021-02-15 17:15:35.204 -05:00 [WARNI] Warning: Hello, World!
+2021-02-15 17:15:35.208 -05:00 [INFOR] TimeSpan:"1.00:00:00"
+2021-02-15 17:15:35.208 -05:00 [DEBUG] Dividing 10 by 0
+2021-02-15 17:15:35.239 -05:00 [ERROR] Something went wrong: Exception={"TargetSite":"System.Collections.Generic.IEnumerable`1[TodoApi.WeatherForecast] Get()","StackTrace":"   at TodoApi.Controllers.WeatherForecastController.Get() in C:\\git\\dotnet\\Serilog\\TodoApi\\Controllers\\WeatherForecastController.cs:line 50","Message":"Attempted to divide by zero.","Data":[],"InnerException":null,"HelpLink":null,"Source":"TodoApi","HResult":-2147352558,"$type":"DivideByZeroException"}
+2021-02-15 17:15:35.245 -05:00 [INFOR] Response:{"Date":"2021-02-16T17:15:35.2043047-05:00","TemperatureC":-18,"TemperatureF":0,"Summary":"Balmy","$type":"WeatherForecast"}
+2021-02-15 17:15:35.252 -05:00 [INFOR] Executing ObjectResult, writing value of type 'TodoApi.WeatherForecast[]'.
+2021-02-15 17:15:35.288 -05:00 [INFOR] Executed action TodoApi.Controllers.WeatherForecastController.Get (TodoApi) in 81.9951ms
+2021-02-15 17:15:35.289 -05:00 [INFOR] Executed endpoint 'TodoApi.Controllers.WeatherForecastController.Get (TodoApi)'
+2021-02-15 17:15:35.292 -05:00 [INFOR] Request finished HTTP/2 GET https://localhost:5001/WeatherForecast - - - 200 - application/json;+charset=utf-8 168.7093ms
+2021-02-15 17:30:44.196 -05:00 [INFOR] Application is shutting down...

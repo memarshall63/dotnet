@@ -1,0 +1,17 @@
+2021-02-15 16:37:31.374 -05:00 [INF] Now listening on: https://localhost:5001
+2021-02-15 16:37:31.421 -05:00 [INF] Now listening on: http://localhost:5000
+2021-02-15 16:37:31.422 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-15 16:37:31.422 -05:00 [INF] Hosting environment: Development
+2021-02-15 16:37:31.422 -05:00 [INF] Content root path: C:\git\dotnet\Serilog\TodoApi
+2021-02-15 16:37:44.635 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/WeatherForecast - -
+2021-02-15 16:37:44.686 -05:00 [INF] Executing endpoint 'TodoApi.Controllers.WeatherForecastController.Get (TodoApi)'
+2021-02-15 16:37:44.702 -05:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[TodoApi.WeatherForecast] Get() on controller TodoApi.Controllers.WeatherForecastController (TodoApi).
+2021-02-15 16:37:44.705 -05:00 [WRN] Warning: Hello, World!
+2021-02-15 16:37:44.709 -05:00 [INF] TimeSpan:"1.00:00:00"
+2021-02-15 16:37:44.710 -05:00 [DBG] Dividing 10 by 0
+2021-02-15 16:37:44.742 -05:00 [ERR] Something went wrong: Exception={"TargetSite":"System.Collections.Generic.IEnumerable`1[TodoApi.WeatherForecast] Get()","StackTrace":"   at TodoApi.Controllers.WeatherForecastController.Get() in C:\\git\\dotnet\\Serilog\\TodoApi\\Controllers\\WeatherForecastController.cs:line 44","Message":"Attempted to divide by zero.","Data":[],"InnerException":null,"HelpLink":null,"Source":"TodoApi","HResult":-2147352558,"$type":"DivideByZeroException"}
+2021-02-15 16:37:44.747 -05:00 [INF] Response:{"Date":"2021-02-16T16:37:44.7050064-05:00","TemperatureC":1,"TemperatureF":33,"Summary":"Freezing","$type":"WeatherForecast"}
+2021-02-15 16:37:44.754 -05:00 [INF] Executing ObjectResult, writing value of type 'TodoApi.WeatherForecast[]'.
+2021-02-15 16:37:44.794 -05:00 [INF] Executed action TodoApi.Controllers.WeatherForecastController.Get (TodoApi) in 86.5834ms
+2021-02-15 16:37:44.795 -05:00 [INF] Executed endpoint 'TodoApi.Controllers.WeatherForecastController.Get (TodoApi)'
+2021-02-15 16:37:44.798 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/WeatherForecast - - - 200 - application/json;+charset=utf-8 166.1167ms
