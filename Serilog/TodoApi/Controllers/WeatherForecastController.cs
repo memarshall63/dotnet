@@ -51,7 +51,7 @@ namespace TodoApi.Controllers
             {
                 //_logger.CloseAndFlush();
             }
-
+            _logger.LogInformation("Response:{@r}", rtn);
             return(rtn);
         }
     }
